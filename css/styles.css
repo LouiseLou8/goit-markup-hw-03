@@ -29,12 +29,11 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.menu-item-first:hover {
-  color: #404bbf;
-}
+.menu-item-first:hover,
 .menu-item-first:focus {
   color: #404bbf;
 }
+
 .page-logo-first-part {
   font-family: "Raleway", "sans-serif";
   text-transform: uppercase;
@@ -47,6 +46,7 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  font-family: "Raleway", sans-serif;
 }
 
 .contact-block-text {
@@ -161,15 +161,11 @@ button:focus {
 }
 
 /* /OUR PORTFOLIO SECTION*/
-.portfolio-menu {
-  background-color: #ffffff;
-}
+
 .portfolio-name {
   font-family: "Roboto", "sans-serif";
   font-weight: 500;
   font-size: 20px;
-
-  /* line-height: 24px; */
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -181,6 +177,9 @@ button:focus {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.portfolio-list-item {
+  background-color: #ffffff;
 }
 
 /* PAGE FOOTER*/
