@@ -11,8 +11,8 @@ button {
   cursor: pointer;
 }
 body {
-  color: #2e2f42;
-  font-family: "Roboto", "Raleway", "sans-serif";
+  color: #434455;
+  font-family: "Roboto", "sans-serif";
   background-color: #ffffff;
 }
 /* /COMMON STYLES */
@@ -24,20 +24,28 @@ body {
   font-size: 18px;
   line-height: 117%;
   letter-spacing: 0.03em;
-  border-bottom: 1px solid #e7e9fc;
-  width: 1440px;
-  height: 72px;
   background-color: #ffffff;
-}
-.page-logo-first-part {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
   color: #4d5ae5;
 }
-.menu-item {
+.menu-item-first:hover,
+.menu-item-first:focus {
+  color: #404bbf;
+}
+.page-logo-first-part {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.menu-item,
+.menu-item-first {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
 }
+
 .contact-block-text {
   font-weight: 400;
   font-size: 16px;
@@ -46,8 +54,25 @@ body {
   color: #434455;
   font-family: "Roboto", "sans-serif";
 }
+address {
+  font-style: normal;
+}
+.contact-block-item {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contact-block-item:hover,
+.contact-block-item:focus {
+  color: #404bbf;
+}
 
 /* HERO SECTION */
+
+.main-section {
+  background-color: #2e2f42;
+}
+
 .main-page-header {
   background-color: #2e2f42;
 }
@@ -64,6 +89,7 @@ body {
   background: #2e2f42;
 }
 .button {
+  font-family: "Roboto", "sans-serif";
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -82,7 +108,8 @@ body {
   background: #4d5ae5;
 }
 
-button:hover {
+button:hover,
+button:focus {
   background: #404bbf;
 }
 /* /HERO SECTION */
@@ -105,6 +132,9 @@ button:hover {
   color: #434455;
 }
 /* /OUR TEAM SECTION*/
+.our-team-section {
+  background-color: #f4f4fd;
+}
 .section-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -113,6 +143,10 @@ button:hover {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
+}
+.our-team-menu {
+  background-color: #ffffff;
 }
 .our-team-menu {
   background: #f4f4fd;
@@ -156,6 +190,12 @@ button:hover {
   color: #434455;
 }
 
+/* PAGE FOOTER*/
+.page-logo {
+  font-family: "Raleway", "sans-serif";
+  text-transform: "uppercase";
+  color: #4d5ae5;
+}
 .footer-section {
   width: 1440px;
   height: 312px;
