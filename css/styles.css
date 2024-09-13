@@ -90,7 +90,7 @@ address {
   background: #2e2f42;
 }
 .button {
-  font-family: "Roboto", "sans-serif";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -137,7 +137,7 @@ button:focus {
   color: #2e2f42;
   text-transform: capitalize;
 }
-.our-team-menu {
+.our-team-section {
   background-color: #ffffff;
 }
 
@@ -184,7 +184,7 @@ button:focus {
 
 /* PAGE FOOTER*/
 .page-logo {
-  font-family: "Raleway", "sans-serif";
+  font-family: "Raleway", sans-serif;
   text-transform: "uppercase";
   color: #4d5ae5;
 }
