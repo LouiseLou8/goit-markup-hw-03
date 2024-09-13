@@ -29,8 +29,8 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.menu-link-first:hover,
-.menu-link-first:focus {
+.menu-link:hover,
+.menu-link:focus {
   color: #404bbf;
 }
 .page-logo-first-part {
