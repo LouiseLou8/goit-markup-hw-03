@@ -69,6 +69,11 @@ address {
   color: #404bbf;
 }
 
+.contact-block-link:hover,
+.contact-block-link:focus {
+  color: #404bbf;
+}
+
 /* HERO SECTION */
 
 .main-section {
