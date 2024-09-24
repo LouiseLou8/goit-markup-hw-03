@@ -107,8 +107,7 @@ img {
   text-transform: uppercase;
   color: #2e2f42;
 }
-.menu-item,
-.menu-item-first {
+.menu-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -170,7 +169,7 @@ address {
   background: #2e2f42;
 }
 .button {
-  display: flex;
+  display: block;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -269,6 +268,7 @@ button:focus {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .team-member-profession {
   font-family: "Roboto", "sans-serif";
@@ -278,6 +278,10 @@ button:focus {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+.team-descr {
+  padding: 32px 0;
+  text-align: center;
 }
 
 /* /OUR PORTFOLIO SECTION*/
@@ -305,10 +309,11 @@ button:focus {
   display: flex;
   column-gap: 24px;
   flex-wrap: wrap;
+  row-gap: 48px;
 }
 
 .portfolio-list-item {
-  width: calc((100% - 24px) / 3);
+  width: calc((100% - 48px) / 3);
   margin-right: auto;
   margin-left: auto;
   padding-top: 32px;
@@ -316,12 +321,24 @@ button:focus {
 .portfolio-avatar {
   margin-bottom: 32px;
 }
+.item-descr {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
 
 /* PAGE FOOTER*/
+.footer-section {
+  padding: 100px 0;
+}
+
 .page-logo {
   font-family: "Raleway", sans-serif;
   text-transform: "uppercase";
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-section {
   background: #2e2f42;
