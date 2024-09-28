@@ -62,7 +62,7 @@ img {
 }
 .page-nav {
   display: flex;
-  gap: 76px;
+
   align-items: center;
 }
 .menu {
@@ -96,6 +96,7 @@ img {
   color: #4d5ae5;
   padding-top: 24px;
   padding-bottom: 24px;
+  margin-right: 76px;
 }
 
 .menu-link,
@@ -313,13 +314,13 @@ button:focus {
   display: flex;
   column-gap: 24px;
   flex-wrap: wrap;
+  row-gap: 48px;
 }
 
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
   margin-right: auto;
   margin-left: auto;
-  padding-top: 32px;
 }
 
 .item-descr {
@@ -344,10 +345,13 @@ button:focus {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
-  margin-top: 16px;
 }
 .page-logo-second-part {
   color: #f4f4fd;
   font-family: "Raleway", "sans-serif";
   text-transform: uppercase;
+}
+.footer-logo {
+  margin-bottom: 16px;
+  display: inline-block;
 }
